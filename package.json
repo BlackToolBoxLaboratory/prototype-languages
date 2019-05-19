@@ -4,7 +4,8 @@
   "description": "A prototype for multiple languages",
   "keywords": [
     "blacktoolbox",
-    "language"
+    "multiple-languages",
+    "languages"
   ],
   "license": "MIT",
   "author": "Van Noel <vannoel0628@gmail.com>",
@@ -41,6 +42,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "eslint": "^5.16.0",
+    "gulp": "^4.0.2",
     "rollup": "^1.12.2",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^10.0.0",

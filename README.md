@@ -1,4 +1,6 @@
-# blacktbox-prototype-languages
+# Blacktoolbox-prototype-languages
+
+A protype for multiple languages.
 
 # Installation
 
