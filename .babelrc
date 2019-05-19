@@ -1,0 +1,36 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread"
+  ],
+  "env": {
+    "commonjs": {
+      "presets": ["@babel/preset-env"]
+    },
+    "es": {
+      "presets": [
+        [ "@babel/preset-env", 
+          {
+            "modules": false
+          }
+        ]
+      ]  
+    },
+    "umd": {
+      "presets": [
+        [ "@babel/preset-env", 
+          {
+            "modules": false
+          }
+        ]
+      ]
+    },
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
+  }
+}
