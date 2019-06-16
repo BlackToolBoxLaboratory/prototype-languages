@@ -9,10 +9,11 @@ Using with [NPM](https://www.npmjs.com/):
     $ npm install --save @blacktoolbox/prototype-languages
 
     // using ES6 modules
-    import Menu from '@blacktoolbox/prototype-languages';
+    import Language, { initializer } from '@blacktoolbox/prototype-languages';
 
     // using CommonJS modules
-    var Menu = require('@blacktoolbox/prototype-languages');
+    var Language= require('@blacktoolbox/prototype-languages');
+    var initializer = require('@blacktoolbox/prototype-languages').initializer ;
 
 # Issue
 
