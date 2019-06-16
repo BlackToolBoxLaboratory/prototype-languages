@@ -9,14 +9,9 @@ const env = process.env.NODE_ENV;
 const config = {
   output: {
     format: "umd",
-    name: "blacktbox-prototype-languages"
+    name: "blacktoolbox-prototype-languages",
+    exports: "named"
   },
-  globals: {
-    react: 'React'
-  },
-  external: [
-    'react'
-  ],
   plugins: [
     replace({
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
