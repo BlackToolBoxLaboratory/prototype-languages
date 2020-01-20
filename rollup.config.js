@@ -1,7 +1,7 @@
 import babel from "rollup-plugin-babel";
-import resolve from "rollup-plugin-node-resolve";
-import commonjs from "rollup-plugin-commonjs";
-import replace from "rollup-plugin-replace";
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import replace from "@rollup/plugin-replace";
 import { uglify } from "rollup-plugin-uglify";
 
 const env = process.env.NODE_ENV;
@@ -9,7 +9,7 @@ const env = process.env.NODE_ENV;
 const config = {
   output: {
     format: "umd",
-    name: "blacktoolbox-prototype-languages",
+    name: "btblab-languages",
     exports: "named"
   },
   plugins: [

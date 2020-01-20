@@ -1,3 +1,10 @@
+## v1.1.1
+
+> Jan. 20, 2020
+
+- **Issue**: Short the name of globalThis for UMD.
+
+
 ## v1.1.0
 
 > July. 13, 2019
